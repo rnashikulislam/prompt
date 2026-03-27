@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal AI Prompt Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-grid"></div>
+
+    <div class="container">
+        <header>
+            <div class="header-badge">AI PROMPT STUDIO</div>
+            <h1>🎬 Prompt Builder</h1>
+            <p>Select options or add custom details to craft the perfect AI prompt.</p>
+        </header>
+
+        <form id="builder-form"></form>
+
+        <div class="spacer"></div>
+    </div>
+
+    <div class="output-container">
+        <div class="output-inner">
+            <textarea id="final-prompt" readonly placeholder="✨ Your generated prompt will appear here as you make selections..."></textarea>
+            <button id="copy-btn">📋 Copy Prompt</button>
+            <button id="reset-btn">🔄 Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
